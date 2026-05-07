@@ -121,6 +121,12 @@ const getCollegeByID = async (req, res) => {
     }
 }
 
+/**
+ * @name compareColleges
+ * @description it compares 2 or more colleges
+ * @access public
+ */
+
 const compareColleges = async (req, res) => {
     try {
         const { ids } = req.body
