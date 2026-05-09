@@ -5,7 +5,7 @@ const app = express()
 
 app.use(express.json())
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin: 'https://college-discovery-platform-frontend.onrender.com'
 }))
 
 import { collegeRouter } from "./routes/college.routes.js";
