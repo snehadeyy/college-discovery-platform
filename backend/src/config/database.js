@@ -24,6 +24,7 @@ const testDB = async () => {
     }
     catch (err) {
         console.log(err)
+        throw err
     }
 }
 
